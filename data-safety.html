@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#B3400F" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Google Play Data Safety Section Summary — Agrawal Samaj App</title>
+  <meta name="description" content="Detailed Google Play Console Data Safety declarations and transparency matrix for Agrawal Samaj (app.agrawal.agrawal_samaj)." />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  <link rel="apple-touch-icon" href="/assets/app_icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="/index.html" class="brand-wrapper" title="Agrawal Samaj Platform">
+        <img src="/assets/logo.png" alt="Agrawal Samaj Logo" class="brand-logo" width="42" height="42" />
+        <div class="brand-text-block">
+          <span class="brand-title">AGRAWAL SAMAJ</span>
+          <span class="brand-subtitle">Privacy &amp; Data Governance</span>
+        </div>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="/index.html" class="nav-link">Privacy Policy</a></li>
+          <li><a href="/data-safety.html" class="nav-link active" aria-current="page">Data Safety Summary</a></li>
+          <li><a href="/delete-account.html" class="nav-link">Account Deletion</a></li>
+          <li><a href="/terms.html" class="nav-link">Terms &amp; Invariants</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="btn-icon" id="print-btn" title="Print or Save as PDF" aria-label="Print or Save as PDF">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+        </button>
+        <button type="button" class="btn-icon" id="theme-toggle-btn" title="Toggle Light/Dark Theme" aria-label="Toggle Light/Dark Theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <div class="hero-meta-badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+        Google Play Console Data Safety Form Reference
+      </div>
+      <h1 class="hero-title">Google Play Data Safety Section Declarations</h1>
+      <p class="hero-desc">
+        This document provides the itemized declarations submitted in the <strong>Google Play Console Data Safety section</strong> for the <strong>Agrawal Samaj</strong> app (Package: <code>app.agrawal.agrawal_samaj</code>), giving users complete visibility into data handling and compliance.
+      </p>
+
+      <div class="hero-meta-strip">
+        <div class="meta-item"><span>Target App:</span> <strong>Agrawal Samaj</strong></div>
+        <div class="meta-item"><span>Application ID:</span> <code>app.agrawal.agrawal_samaj</code></div>
+        <div class="meta-item"><span>Encryption in Transit:</span> <strong>Yes (TLS 1.3)</strong></div>
+        <div class="meta-item"><span>Account Deletion URL:</span> <a href="/delete-account.html">agrawal.app/delete-account</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Container -->
+  <main class="main-wrapper">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <nav class="toc-card" aria-label="Data Safety TOC">
+        <div class="toc-header">Play Console Fields</div>
+        <ul class="toc-list">
+          <li><a href="#overview-answers" class="toc-link">1. Overview Answers</a></li>
+          <li><a href="#data-collected" class="toc-link">2. Data Collected</a></li>
+          <li><a href="#data-shared" class="toc-link">3. Data Shared</a></li>
+          <li><a href="#security-practices" class="toc-link">4. Security Practices</a></li>
+          <li><a href="#data-deletion" class="toc-link">5. Data Deletion Protocol</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Content Area -->
+    <div class="content-area">
+
+      <!-- Section 1: Overview Answers -->
+      <section id="overview-answers" class="content-section">
+        <h2 class="section-heading">1. Google Play Console High-Level Questionnaire Answers</h2>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Google Play Console Question</th>
+                <th>Platform Response</th>
+                <th>Details &amp; Context</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Does your app collect or share any of the required user data types?</strong></td>
+                <td><span class="badge badge-yes">Yes</span></td>
+                <td>Data is collected strictly for core community directory, family verification, and emergency blood matching.</td>
+              </tr>
+              <tr>
+                <td><strong>Is all of the user data collected by your app encrypted in transit?</strong></td>
+                <td><span class="badge badge-yes">Yes</span></td>
+                <td>All network traffic is encrypted via HTTPS with TLS 1.3 protocol.</td>
+              </tr>
+              <tr>
+                <td><strong>Do you provide a way for users to request that their data is deleted?</strong></td>
+                <td><span class="badge badge-yes">Yes</span></td>
+                <td>Self-service deletion in the app (Settings &rarr; Delete Account) and web portal at <code>/delete-account.html</code>.</td>
+              </tr>
+              <tr>
+                <td><strong>Does your app target children under the age of 13?</strong></td>
+                <td><span class="badge badge-no">No</span></td>
+                <td>Registration is restricted to adults (18+). Children are never assigned independent accounts.</td>
+              </tr>
+              <tr>
+                <td><strong>Is your app committed to following the Google Play Families Policy?</strong></td>
+                <td><span class="badge badge-no">Not Applicable</span></td>
+                <td>The app is for adult community members and not in the Designed for Families program.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Section 2: Data Collected -->
+      <section id="data-collected" class="content-section">
+        <h2 class="section-heading">2. Itemized Data Collection Matrix</h2>
+        <p>
+          The table below itemizes every data type declared in the Google Play Console Data Safety form:
+        </p>
+
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Data Category &amp; Type</th>
+                <th>Collected?</th>
+                <th>Is it Optional?</th>
+                <th>Purposes Declared in Console</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Personal Info &mdash; Name</strong></td>
+                <td><span class="badge badge-yes">Collected</span></td>
+                <td>No</td>
+                <td>App functionality, Account management</td>
+              </tr>
+              <tr>
+                <td><strong>Personal Info &mdash; Phone Number</strong></td>
+                <td><span class="badge badge-yes">Collected</span></td>
+                <td>No</td>
+                <td>App functionality, Account management, Fraud prevention (dedup)</td>
+              </tr>
+              <tr>
+                <td><strong>Personal Info &mdash; Email Address</strong></td>
+                <td><span class="badge badge-yes">Collected</span></td>
+                <td>Yes (Optional)</td>
+                <td>Account management, Friend Contact Share (explicit toggle only)</td>
+              </tr>
+              <tr>
+                <td><strong>Personal Info &mdash; User IDs</strong></td>
+                <td><span class="badge badge-yes">Collected</span></td>
+                <td>No</td>
+                <td>Permanent Family ID (<code>AGR-[PIN]-[SEQ]</code>) for household register</td>
+              </tr>
+              <tr>
+                <td><strong>Personal Info &mdash; Address / Pincode</strong></td>
+                <td><span class="badge badge-yes">Collected</span></td>
+                <td>No</td>
+                <td>App functionality (postal pincode used to format permanent Family ID)</td>
+              </tr>
+              <tr>
+                <td><strong>Health Info &mdash; Blood Group</strong></td>
+                <td><span class="badge badge-yes">Collected</span></td>
+                <td>Yes (Optional)</td>
+                <td>App functionality (algorithmic emergency Blood SOS matching only; <strong>never displayed</strong>)</td>
+              </tr>
+              <tr>
+                <td><strong>Photos &amp; Videos &mdash; Photos</strong></td>
+                <td><span class="badge badge-yes">Collected</span></td>
+                <td>Yes (Optional)</td>
+                <td>App functionality (Member profile and family portraits; screened for explicit content)</td>
+              </tr>
+              <tr>
+                <td><strong>Financial Info &mdash; Purchase History</strong></td>
+                <td><span class="badge badge-yes">Collected</span></td>
+                <td>Yes</td>
+                <td>Payment transaction order IDs for ₹1 Registration and Commercial Notice fees via Razorpay</td>
+              </tr>
+              <tr>
+                <td><strong>Device or other IDs &mdash; FCM Token</strong></td>
+                <td><span class="badge badge-yes">Collected</span></td>
+                <td>No</td>
+                <td>App functionality (Firebase Cloud Messaging for transactional push notifications)</td>
+              </tr>
+              <tr>
+                <td><strong>Location &mdash; Precise GPS Location</strong></td>
+                <td><span class="badge badge-no">Not Collected</span></td>
+                <td>N/A</td>
+                <td>App does NOT request continuous or background GPS location permission.</td>
+              </tr>
+              <tr>
+                <td><strong>Contacts &mdash; Phonebook Contacts</strong></td>
+                <td><span class="badge badge-no">Not Collected</span></td>
+                <td>N/A</td>
+                <td>App does NOT read or upload device address book / contacts.</td>
+              </tr>
+              <tr>
+                <td><strong>Biometrics &mdash; Fingerprint / Face Data</strong></td>
+                <td><span class="badge badge-no">Not Collected</span></td>
+                <td>N/A</td>
+                <td>Processed locally on hardware (TEE) via Android Keystore; no biometric data collected by server.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Section 3: Data Shared -->
+      <section id="data-shared" class="content-section">
+        <h2 class="section-heading">3. Third-Party Data Sharing Declarations</h2>
+        <div class="callout callout-teal">
+          <div class="callout-header">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Zero Commercial Sharing / Zero Data Sales
+          </div>
+          <div class="callout-body">
+            Personal data is never transferred or sold to data brokers, marketing affiliates, or advertising networks. Data is shared solely with critical infrastructure providers acting under written data processing contracts:
+          </div>
+        </div>
+
+        <ul>
+          <li><strong>Razorpay Software Pvt. Ltd. (Payment Processor):</strong> Order reference, transaction amounts for statutory ₹1 payment processing.</li>
+          <li><strong>Google Firebase (Authentication &amp; Push):</strong> Phone numbers for one-time SMS verification and ephemeral device tokens for push alerts.</li>
+          <li><strong>Amazon Web Services (Cloud Host):</strong> Encrypted database records stored in AWS Mumbai (ap-south-1).</li>
+          <li><strong>Sightengine (Content Moderation):</strong> Transient media screening to block abusive content.</li>
+        </ul>
+      </section>
+
+      <!-- Section 4: Security Practices -->
+      <section id="security-practices" class="content-section">
+        <h2 class="section-heading">4. Security Practices Declared in Play Console</h2>
+        <ul>
+          <li><strong>Data is encrypted in transit:</strong> Yes. Transport Layer Security (TLS 1.3) protects all data moving across the public network.</li>
+          <li><strong>Data is encrypted at rest:</strong> Yes. PostgreSQL data tables and media objects in Amazon S3 use AES-256 standard encryption.</li>
+          <li><strong>Independent Security Review:</strong> Architecture and data access controls are audited for compliance with the DPDP Act 2023 and Google Play developer security guidelines.</li>
+        </ul>
+      </section>
+
+      <!-- Section 5: Deletion Protocol -->
+      <section id="data-deletion" class="content-section">
+        <h2 class="section-heading">5. Data Deletion URL &amp; Process</h2>
+        <p>
+          Google Play requires an accessible web resource where users can learn about and submit an account deletion request.
+        </p>
+        <p>
+          Our verified Account Deletion URL is: <a href="/delete-account.html"><strong>https://agrawal.app/delete-account</strong></a>.
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="brand-wrapper">
+          <img src="/assets/logo.png" alt="Agrawal Samaj Logo" class="brand-logo" width="38" height="38" />
+          <div class="brand-text-block">
+            <span class="brand-title">Agrawal Samaj Digital Platform</span>
+            <span class="brand-subtitle">Application ID: app.agrawal.agrawal_samaj</span>
+          </div>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="/index.html">Privacy Policy</a></li>
+          <li><a href="/data-safety.html">Data Safety</a></li>
+          <li><a href="/delete-account.html">Delete Account</a></li>
+          <li><a href="/terms.html">Terms &amp; Invariants</a></li>
+          <li><a href="mailto:help.agrawal.app@gmail.com">Contact Officer</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Agrawal Samaj Digital Platform. All rights reserved.</p>
+        <p>Google Play Console Data Safety Form Companion</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>

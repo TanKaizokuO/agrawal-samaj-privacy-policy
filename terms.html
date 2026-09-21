@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#B3400F" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Terms of Community &amp; Platform Invariants — Agrawal Samaj App</title>
+  <meta name="description" content="Community guidelines, household governance invariants, and acceptable use terms for the Agrawal Samaj Digital Platform." />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  <link rel="apple-touch-icon" href="/assets/app_icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="/index.html" class="brand-wrapper" title="Agrawal Samaj Platform">
+        <img src="/assets/logo.png" alt="Agrawal Samaj Logo" class="brand-logo" width="42" height="42" />
+        <div class="brand-text-block">
+          <span class="brand-title">AGRAWAL SAMAJ</span>
+          <span class="brand-subtitle">Privacy &amp; Data Governance</span>
+        </div>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="/index.html" class="nav-link">Privacy Policy</a></li>
+          <li><a href="/data-safety.html" class="nav-link">Data Safety Summary</a></li>
+          <li><a href="/delete-account.html" class="nav-link">Account Deletion</a></li>
+          <li><a href="/terms.html" class="nav-link active" aria-current="page">Terms &amp; Invariants</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="btn-icon" id="print-btn" title="Print or Save as PDF" aria-label="Print or Save as PDF">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+        </button>
+        <button type="button" class="btn-icon" id="theme-toggle-btn" title="Toggle Light/Dark Theme" aria-label="Toggle Light/Dark Theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <div class="hero-meta-badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+        Community Governance &amp; Digital Safety Standards
+      </div>
+      <h1 class="hero-title">Terms of Community &amp; System Invariants</h1>
+      <p class="hero-desc">
+        The Agrawal Samaj Platform is a verified digital registry designed to connect member households, honor shared heritage, and facilitate community mutual aid. These terms and architectural invariants define our mutual rights and responsibilities.
+      </p>
+
+      <div class="hero-meta-strip">
+        <div class="meta-item"><span>Platform:</span> <strong>Agrawal Samaj Digital Platform</strong></div>
+        <div class="meta-item"><span>Application ID:</span> <code>app.agrawal.agrawal_samaj</code></div>
+        <div class="meta-item"><span>Operator:</span> <strong>Mr. Rahul Kumar Agrawal</strong></div>
+        <div class="meta-item"><span>Support Email:</span> <a href="mailto:help.agrawal.app@gmail.com">help.agrawal.app@gmail.com</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Container -->
+  <main class="main-wrapper">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <nav class="toc-card" aria-label="Terms TOC">
+        <div class="toc-header">Community Rules</div>
+        <ul class="toc-list">
+          <li><a href="#membership-rules" class="toc-link">1. Household Membership</a></li>
+          <li><a href="#gotra-invariants" class="toc-link">2. 18 Gotras Invariant</a></li>
+          <li><a href="#noticeboard-rules" class="toc-link">3. Community Noticeboards</a></li>
+          <li><a href="#content-moderation" class="toc-link">4. Moderation &amp; Suspensions</a></li>
+          <li><a href="#event-rules" class="toc-link">5. Event Passes &amp; Minors</a></li>
+          <li><a href="#officer-appeals" class="toc-link">6. Officer Review &amp; Appeals</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Content Area -->
+    <div class="content-area">
+
+      <!-- Section 1 -->
+      <section id="membership-rules" class="content-section">
+        <h2 class="section-heading">1. Household Registration &amp; Membership Rules</h2>
+        <ul>
+          <li><strong>Self-Service Adult Registration:</strong> Every adult member registers personally with their own phone OTP. A Head of Family cannot input personal records on behalf of other adults without independent self-service verification.</li>
+          <li><strong>One Identity, One Headship:</strong> Under Invariant #6, an individual identity may head at most one registered Family. Duplicate headship attempts are detected and flagged.</li>
+          <li><strong>Permanent Family ID:</strong> The issued Family ID (<code>AGR-[PINCODE]-[SEQ]</code>) is permanent and does not change even if the household changes residences.</li>
+          <li><strong>Registration Friction Payment:</strong> The nominal ₹1 Registration Payment exists solely as a fraud friction mechanism to verify that a genuine human is completing registration.</li>
+        </ul>
+      </section>
+
+      <!-- Section 2 -->
+      <section id="gotra-invariants" class="content-section">
+        <h2 class="section-heading">2. The 18 Gotras of Maharaja Agrasen</h2>
+        <p>
+          In accordance with Invariant #4, the Gotra belongs to the Family, is chosen at creation from the eighteen traditional Gotras, and is immutable thereafter:
+        </p>
+
+        <div style="display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0;">
+          <span class="badge" style="background: var(--color-primary-light); color: var(--color-primary); padding: 6px 12px; font-size: 13px;">Garg (गर्ग)</span>
+          <span class="badge" style="background: var(--color-primary-light); color: var(--color-primary); padding: 6px 12px; font-size: 13px;">Goyal (गोयल)</span>
+          <span class="badge" style="background: var(--color-primary-light); color: var(--color-primary); padding: 6px 12px; font-size: 13px;">Goyan (गोयन)</span>
+          <span class="badge" style="background: var(--color-primary-light); color: var(--color-primary); padding: 6px 12px; font-size: 13px;">Bansal (बंसल)</span>
+          <span class="badge" style="background: var(--color-primary-light); color: var(--color-primary); padding: 6px 12px; font-size: 13px;">Kansal (कंसल)</span>
+          <span class="badge" style="background: var(--color-primary-light); color: var(--color-primary); padding: 6px 12px; font-size: 13px;">Singhal (सिंघल)</span>
+          <span class="badge" style="background: var(--color-primary-light); color: var(--color-primary); padding: 6px 12px; font-size: 13px;">Jindal (जिंदल)</span>
+          <span class="badge" style="background: var(--color-primary-light); color: var(--color-primary); padding: 6px 12px; font-size: 13px;">Tingal (टिंगल)</span>
+          <span class="badge" style="background: var(--color-primary-light); color: var(--color-primary); padding: 6px 12px; font-size: 13px;">Mohan (मोहन)</span>
+          <span class="badge" style="background: var(--color-primary-light); color: var(--color-primary); padding: 6px 12px; font-size: 13px;">Dharan (धारण)</span>
+          <span class="badge" style="background: var(--color-primary-light); color: var(--color-primary); padding: 6px 12px; font-size: 13px;">Madhukul (मधुकुल)</span>
+          <span class="badge" style="background: var(--color-primary-light); color: var(--color-primary); padding: 6px 12px; font-size: 13px;">Bindal (बिंदल)</span>
+          <span class="badge" style="background: var(--color-primary-light); color: var(--color-primary); padding: 6px 12px; font-size: 13px;">Mittal (मित्तल)</span>
+          <span class="badge" style="background: var(--color-primary-light); color: var(--color-primary); padding: 6px 12px; font-size: 13px;">Tayal (तायल)</span>
+          <span class="badge" style="background: var(--color-primary-light); color: var(--color-primary); padding: 6px 12px; font-size: 13px;">Mangal (मंगल)</span>
+          <span class="badge" style="background: var(--color-primary-light); color: var(--color-primary); padding: 6px 12px; font-size: 13px;">Airan (ऐरण)</span>
+          <span class="badge" style="background: var(--color-primary-light); color: var(--color-primary); padding: 6px 12px; font-size: 13px;">Nangal (नांगल)</span>
+          <span class="badge" style="background: var(--color-primary-light); color: var(--color-primary); padding: 6px 12px; font-size: 13px;">Kuchhal (कुच्छल)</span>
+        </div>
+      </section>
+
+      <!-- Section 3 -->
+      <section id="noticeboard-rules" class="content-section">
+        <h2 class="section-heading">3. Community Noticeboard Standards</h2>
+        <p>
+          Members may post to community boards (Shok Sandesh, Business Listings, Events). All posts are subject to:
+        </p>
+        <ul>
+          <li><strong>No Personal Phone Leakage:</strong> Notice text cannot include personal phone numbers to circumvent phone privacy protections. Only official business listings may publish their verified commercial contact numbers.</li>
+          <li><strong>Commercial Notice Posting Fee:</strong> Commercial notices require a nominal ₹49 posting fee to curb unsolicited spam and bulk advertising.</li>
+          <li><strong>Shok Sandesh (Obituaries):</strong> Publishing an obituary announces a passing to the community; it does not automatically archive the deceased member's directory record without family confirmation.</li>
+        </ul>
+      </section>
+
+      <!-- Section 4 -->
+      <section id="content-moderation" class="content-section">
+        <h2 class="section-heading">4. Moderation &amp; Suspensions</h2>
+        <p>
+          To maintain a safe, respectful environment for all member families:
+        </p>
+        <ul>
+          <li><strong>Distinct Family Reports:</strong> A notice is hidden only if it receives reports from multiple distinct households, preventing bad-faith harassment by a single party.</li>
+          <li><strong>Transparent Suspensions:</strong> If a member's posting capability is temporarily suspended for policy violations, the suspension is fully visible to the member along with reasons. Shadowbanning is strictly forbidden.</li>
+          <li><strong>Emergency Protection:</strong> Blood SOS emergency alerts cannot be hidden by member reports, preventing malicious silencing of medical requests.</li>
+        </ul>
+      </section>
+
+      <!-- Section 5 -->
+      <section id="event-rules" class="content-section">
+        <h2 class="section-heading">5. Event Passes &amp; Gate Verification</h2>
+        <ul>
+          <li><strong>Free Event Passes:</strong> Event passes for community functions are non-commercial and never carry a charge.</li>
+          <li><strong>Offline Verification:</strong> Passes are digitally signed by the server and verified cryptographically at venue gates without requiring active cellular connectivity.</li>
+          <li><strong>Headcount for Minors:</strong> Minors enter on the Head of Family's pass as an aggregate headcount, ensuring complete privacy from presence tracking.</li>
+        </ul>
+      </section>
+
+      <!-- Section 6 -->
+      <section id="officer-appeals" class="content-section">
+        <h2 class="section-heading">6. Human Officer Review &amp; Appeals</h2>
+        <p>
+          Every automated platform decision (including image screening rejections, duplicate registration flags, or content suspensions) carries a right of human review by the Grievance &amp; Verification Officer:
+        </p>
+        <ul>
+          <li><strong>Officer Email:</strong> <a href="mailto:help.agrawal.app@gmail.com">help.agrawal.app@gmail.com</a></li>
+          <li><strong>Response SLA:</strong> Within 30 days</li>
+          <li>The Officer possesses the authority to override erroneous automated classifications and reinstate affected accounts.</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="brand-wrapper">
+          <img src="/assets/logo.png" alt="Agrawal Samaj Logo" class="brand-logo" width="38" height="38" />
+          <div class="brand-text-block">
+            <span class="brand-title">Agrawal Samaj Digital Platform</span>
+            <span class="brand-subtitle">Application ID: app.agrawal.agrawal_samaj</span>
+          </div>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="/index.html">Privacy Policy</a></li>
+          <li><a href="/data-safety.html">Data Safety</a></li>
+          <li><a href="/delete-account.html">Delete Account</a></li>
+          <li><a href="/terms.html">Terms &amp; Invariants</a></li>
+          <li><a href="mailto:help.agrawal.app@gmail.com">Contact Officer</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Agrawal Samaj Digital Platform. All rights reserved.</p>
+        <p>Architectural Invariants &amp; Terms of Community</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
