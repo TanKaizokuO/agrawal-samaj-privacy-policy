@@ -3,3 +3,12 @@ Thumbs.db
 node_modules/
 .vercel/
 *.log
+.env
+.env.local
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.omp/
+.claude/
+.impeccable/
