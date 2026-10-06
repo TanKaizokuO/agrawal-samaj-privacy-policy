@@ -3,6 +3,7 @@ Thumbs.db
 node_modules/
 .vercel/
 *.log
+logs/
 .env
 .env.local
 .env.*

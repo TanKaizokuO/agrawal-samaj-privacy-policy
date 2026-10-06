@@ -138,7 +138,7 @@ This is the Agrawal Samaj's public notice board, not its product. Where the in-a
 
 The palette reads as civic-Indian without being garish: Saffron (`#B3400F`) for every call to action and active state, laid over an ivory-parchment ground (`#FAF9F6`) and crisp white surfaces — editorial, legible, built for long statutory reading rather than tactile delight. A Teal "verified/affirmative" ramp marks compliance facts that are true ("Yes" on a Data Safety row); Amber marks caveats; Red marks erasure and irreversible actions. Glassmorphic sticky navigation (12px backdrop blur) is the one piece of contemporary polish on an otherwise flat, document-like surface — present so the header and table-of-contents stay usable across a long scroll, not for visual flourish.
 
-The one thing the Gazette shares with Paper on purpose, not by coincidence: the community crest (the circular Maharaja Agrasen emblem, `assets/logo.png`/`favicon.svg`) and the bilingual commitment — `Noto Sans Devanagari` renders all 18 Agrawal Gotra names in terms.html exactly as Paper renders Hindi member names, never machine-transliterated.
+The one thing the Gazette shares with Paper on purpose, not by coincidence: the community crest (the circular Maharaja Agrasen emblem, `assets/logo.png`/`archive/favicon.svg`) and the bilingual commitment — `Noto Sans Devanagari` renders all 18 Agrawal Gotra names in terms.html exactly as Paper renders Hindi member names, never machine-transliterated.
 
 **Key Characteristics:**
 - Saffron-and-ivory civic palette, deliberately distinct from the product app's denim-and-coffee "Paper" system — same community, two registers, two purposes
