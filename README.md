@@ -63,5 +63,5 @@ npm run dev
 ## 👤 Data Fiduciary & Grievance Redressal
 - **Data Fiduciary / Operator**: Mr. Rahul Kumar Agrawal
 - **Grievance Officer**: Mr. Rahul Kumar Agrawal
-- **Grievance Contact Email**: [help.agrawal.app@gmail.com](mailto:help.agrawal.app@gmail.com)
+- **Grievance Contact Email**: [cs@agrawal.app](mailto:cs@agrawal.app)
 - **Statutory Resolution SLA**: Within 30 calendar days

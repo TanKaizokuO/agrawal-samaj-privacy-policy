@@ -153,7 +153,7 @@ function initDeletionForm() {
       return;
     }
 
-    const recipient = 'help.agrawal.app@gmail.com';
+    const recipient = 'cs@agrawal.app';
     const subject = encodeURIComponent(`Account Deletion Request - Agrawal Samaj App - ${phone}`);
     const body = encodeURIComponent(
 `Dear Grievance & Data Protection Officer,
